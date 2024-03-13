@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài toán lập lịch</title>
+</head>
+<body>
+    <h1>Bài toán lập lịch</h1>
+    <p>Số lượng chi tiết: <input type="number" id="so-luong-chi-tiet" value="3"></p>
+    <p>Số lượng máy: <input type="number" id="so-luong-may" value="2"></p>
+    <table id="bang-thoi-gian">
+        <thead>
+            <tr>
+                <th>Chi tiết</th>
+                <th>Máy</th>
+                <th>Thời gian gia công</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>D1</td>
+                <td>M1</td>
+                <input type="number" value="2">
+            </tr>
+            <tr>
+                <td>D1</td>
+                <td>M2</td>
+                <input type="number" value="4">
+            </tr>
+            <tr>
+                <td>D2</td>
+                <td>M1</td>
+                <input type="number" value="3">
+            </tr>
+            <tr>
+                <td>D2</td>
+                <td>M2</td>
+                <input type="number" value="5">
+            </tr>
+            <tr>
+                <td>D3</td>
+                <td>M1</td>
+                <input type="number" value="1">
+            </tr>
+            <tr>
+                <td>D3</td>
+                <td>M2</td>
+                <input type="number" value="6">
+            </tr>
+        </tbody>
+    </table>
+    <button id="btn-giai">Giải</button>
+    <div id="ket-qua"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
